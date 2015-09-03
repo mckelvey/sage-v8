@@ -18,6 +18,8 @@
 // https://gist.github.com/retlehs/1b49f6c00d5140962d56
 
 <?php
+  // place this in lib/init.php
+
   // https://github.com/twittem/wp-bootstrap-navwalker
   require_once('wp-bootstrap-navwalker-master/wp_bootstrap_navwalker.php');
 ?>
