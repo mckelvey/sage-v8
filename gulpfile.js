@@ -109,7 +109,17 @@ var cssTasks = function(filename) {
     })
     .pipe(minifyCss, {
       advanced: false,
-      rebase: false
+      rebase: false,
+      compatibility: 'ie7,' +
+            '-units.ch,' +
+            '-units.in,' +
+            '-units.pc,' +
+            '-units.pt,' +
+            '-units.rem,' +
+            '-units.vh,' +
+            '-units.vm,' +
+            '-units.vmax,' +
+            '-units.vmin'
     })
     .pipe(function() {
       return gulpif(enabled.rev, rev());
