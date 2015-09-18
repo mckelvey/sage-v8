@@ -25,6 +25,6 @@
     }
   },
   "config": {
-    "devUrl": "http://gailfactor.dev"
+    "devUrl": "http://example.dev"
   }
 }
